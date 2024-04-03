@@ -16,3 +16,12 @@ def outer():
 outer()
 print(x)
 ```
+
+## output
+
+```cmd
+10
+11
+11
+15
+```
