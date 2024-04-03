@@ -3,7 +3,8 @@ def outer():
     x = 10
     print(x)
     def inner():
-        x = 5
+        nonlocal x
+        x += 1
         print(x)
     inner()
     print(x)
